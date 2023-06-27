@@ -14835,9 +14835,9 @@ Column winery has 0 empty values.
 <p><strong>Conclusions</strong>:</p>
 <ul>
 <li>Columns with no empty values: description, points, title, winery.</li>
-<li>the vast majority of rows have country and province information</li>
+<li>The vast majority of rows have country and province information</li>
 <li>All but one has variety information</li>
-<li>the rest of the data have significant missing data, including designation, price, province, region, taster info</li>
+<li>the rest of the data have significant missing data, including designation, price, region, taster info</li>
 </ul>
 
 </div>
@@ -15501,6 +15501,240 @@ Name: variety, Length: 707, dtype: int64</pre>
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>&#34;A chalky, dusty mouthfeel nicely balances this Petite Syrah&#39;s bright, full blackberry and blueberry fruit. Wheat-flour and black-pepper notes add interest to the bouquet; the wine finishes with herb and an acorny nuttiness. A good first Chilean wine for those more comfortable with the Californian style. It&#39;s got tannins to lose, but it&#39;s very good.&#34;</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'variety'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>array([&#39;White Blend&#39;, &#39;Portuguese Red&#39;, &#39;Pinot Gris&#39;, &#39;Riesling&#39;,
+       &#39;Pinot Noir&#39;, &#39;Tempranillo-Merlot&#39;, &#39;Frappato&#39;, &#39;Gewürztraminer&#39;,
+       &#39;Cabernet Sauvignon&#39;, &#39;Nerello Mascalese&#39;, &#39;Chardonnay&#39;, &#39;Malbec&#39;,
+       &#39;Tempranillo Blend&#39;, &#39;Meritage&#39;, &#39;Red Blend&#39;, &#39;Merlot&#39;,
+       &#34;Nero d&#39;Avola&#34;, &#39;Chenin Blanc&#39;, &#39;Gamay&#39;, &#39;Sauvignon Blanc&#39;,
+       &#39;Viognier-Chardonnay&#39;, &#39;Primitivo&#39;, &#39;Catarratto&#39;, &#39;Inzolia&#39;,
+       &#39;Petit Verdot&#39;, &#39;Monica&#39;, &#39;Bordeaux-style White Blend&#39;, &#39;Grillo&#39;,
+       &#39;Sangiovese&#39;, &#39;Cabernet Franc&#39;, &#39;Champagne Blend&#39;,
+       &#39;Bordeaux-style Red Blend&#39;, &#39;Aglianico&#39;, &#39;Petite Sirah&#39;,
+       &#39;Touriga Nacional&#39;, &#39;Carmenère&#39;, &#39;Albariño&#39;, &#39;Petit Manseng&#39;,
+       &#39;Rosé&#39;, &#39;Zinfandel&#39;, &#39;Vernaccia&#39;, &#39;Rosato&#39;, &#39;Grüner Veltliner&#39;,
+       &#39;Viognier&#39;, &#39;Vermentino&#39;, &#39;Grenache Blanc&#39;, &#39;Syrah&#39;, &#39;Nebbiolo&#39;,
+       &#39;Shiraz-Cabernet Sauvignon&#39;, &#39;Pinot Blanc&#39;, &#39;Alsace white blend&#39;,
+       &#39;Barbera&#39;, &#39;Rhône-style Red Blend&#39;, &#39;Portuguese White&#39;, &#39;Graciano&#39;,
+       &#39;Tannat-Cabernet&#39;, &#39;Sauvignon&#39;, &#39;Sangiovese Grosso&#39;, &#39;Torrontés&#39;,
+       &#39;Prugnolo Gentile&#39;, &#39;G-S-M&#39;, &#39;Verdejo&#39;, &#39;Fumé Blanc&#39;, &#39;Furmint&#39;,
+       &#39;Pinot Bianco&#39;, &#39;Bonarda&#39;, &#39;Shiraz&#39;, &#39;Montepulciano&#39;, &#39;Moscato&#39;,
+       &#39;Grenache&#39;, &#39;Ugni Blanc-Colombard&#39;, &#39;Syrah-Viognier&#39;,
+       &#39;Blaufränkisch&#39;, &#39;Friulano&#39;, &#39;Assyrtico&#39;, &#39;Carignan-Grenache&#39;,
+       &#39;Sagrantino&#39;, &#39;Savagnin&#39;, &#39;Cabernet Sauvignon-Syrah&#39;, &#39;Prosecco&#39;,
+       &#39;Vignoles&#39;, &#39;Sparkling Blend&#39;, &#39;Muscat&#39;, &#39;Muscadelle&#39;,
+       &#39;Shiraz-Viognier&#39;, &#39;Garganega&#39;, &#39;Pinot Grigio&#39;, &#39;Tempranillo&#39;,
+       &#39;Zierfandler&#39;, &#39;Cortese&#39;, &#39;Mencía&#39;, &#39;Zweigelt&#39;, &#39;Melon&#39;,
+       &#39;Rhône-style White Blend&#39;, &#39;Vidal&#39;, &#39;Cannonau&#39;, &#39;Verdelho&#39;,
+       &#39;Marsanne&#39;, &#39;Scheurebe&#39;, &#39;Kerner&#39;, &#39;Syrah-Grenache&#39;, &#39;Dolcetto&#39;,
+       &#39;Vilana&#39;, &#39;Glera&#39;, &#39;Viura&#39;, &#39;Garnacha Tintorera&#39;, &#39;Pinot Nero&#39;,
+       &#39;Roter Veltliner&#39;, &#39;Pinotage&#39;, &#39;Sémillon&#39;, &#39;Pinot Noir-Gamay&#39;,
+       &#39;Antão Vaz&#39;, &#39;Cabernet Sauvignon-Carmenère&#39;, &#39;Verdejo-Viura&#39;,
+       &#39;Verduzzo&#39;, &#39;Verdicchio&#39;, &#39;Silvaner&#39;, &#39;Colombard&#39;, &#39;Carricante&#39;,
+       &#39;Sylvaner&#39;, &#39;Fiano&#39;, &#39;Früburgunder&#39;, &#39;Sousão&#39;, &#39;Roussanne&#39;,
+       &#39;Avesso&#39;, &#39;Cinsault&#39;, &#39;Chinuri&#39;, &#39;Tinta Miúda&#39;,
+       &#39;Muscat Blanc à Petits Grains&#39;, &#39;Portuguese Sparkling&#39;,
+       &#39;Monastrell&#39;, &#39;Xarel-lo&#39;, &#39;Greco&#39;, &#39;Trebbiano&#39;,
+       &#39;Corvina, Rondinella, Molinara&#39;, &#39;Port&#39;, &#39;Chenin Blanc-Chardonnay&#39;,
+       &#39;Insolia&#39;, &#39;Merlot-Malbec&#39;, &#39;Ribolla Gialla&#39;,
+       &#39;Cabernet Sauvignon-Merlot&#39;, &#39;Duras&#39;, &#39;Weissburgunder&#39;, &#39;Roditis&#39;,
+       &#39;Traminer&#39;, &#39;Papaskarasi&#39;, &#39;Tannat-Syrah&#39;, &#39;Marsanne-Roussanne&#39;,
+       &#39;Charbono&#39;, &#39;Merlot-Argaman&#39;, &#39;Prié Blanc&#39;, &#39;Sherry&#39;,
+       &#39;Provence red blend&#39;, &#39;Tannat&#39;, &#39;Zibibbo&#39;, &#39;Falanghina&#39;,
+       &#39;Garnacha&#39;, &#39;Negroamaro&#39;, &#39;Mourvèdre&#39;, &#39;Syrah-Cabernet&#39;,
+       &#39;Müller-Thurgau&#39;, &#39;Pinot Meunier&#39;, &#39;Cabernet Sauvignon-Sangiovese&#39;,
+       &#39;Austrian Red Blend&#39;, &#39;Teroldego&#39;, &#39;Pansa Blanca&#39;,
+       &#39;Muskat Ottonel&#39;, &#39;Sauvignon Blanc-Semillon&#39;, &#39;Claret&#39;,
+       &#39;Semillon-Sauvignon Blanc&#39;, &#39;Bical&#39;, &#39;Moscatel&#39;, &#39;Rosado&#39;,
+       &#39;Viura-Chardonnay&#39;, &#39;Baga&#39;, &#39;Malvasia Bianca&#39;,
+       &#39;Gelber Muskateller&#39;, &#39;Malbec-Merlot&#39;, &#39;Monastrell-Syrah&#39;,
+       &#39;Malbec-Tannat&#39;, &#39;Malbec-Cabernet Franc&#39;, &#39;Turbiana&#39;, &#39;Refosco&#39;,
+       &#39;Alvarinho&#39;, &#39;Manzoni&#39;, &#39;Aragonês&#39;, &#39;Agiorgitiko&#39;, &#39;Malagousia&#39;,
+       &#39;Assyrtiko&#39;, &#39;Ruché&#39;, &#39;Welschriesling&#39;, &#39;Tinta de Toro&#39;,
+       &#39;Cabernet Moravia&#39;, &#39;Rieslaner&#39;, &#39;Traminette&#39;, &#39;Chambourcin&#39;,
+       &#39;Nero di Troia&#39;, &#39;Lambrusco di Sorbara&#39;, &#39;Cesanese&#39;,
+       &#39;Feteasca Neagra&#39;, &#39;Lagrein&#39;, &#39;Tinta Fina&#39;, &#39;St. Laurent&#39;,
+       &#39;Marsanne-Viognier&#39;, &#39;Cabernet Sauvignon-Shiraz&#39;,
+       &#39;Syrah-Cabernet Sauvignon&#39;, &#39;Gewürztraminer-Riesling&#39;,
+       &#39;Pugnitello&#39;, &#39;Cerceal&#39;, &#39;Touriga Nacional Blend&#39;,
+       &#39;Austrian white blend&#39;, &#39;Tocai&#39;, &#39;Tinta Roriz&#39;,
+       &#39;Chardonnay-Viognier&#39;, &#39;Fernão Pires&#39;,
+       &#39;Cabernet Franc-Cabernet Sauvignon&#39;, &#39;Grenache-Syrah&#39;,
+       &#39;Seyval Blanc&#39;, &#39;Muscat Canelli&#39;, &#39;Cabernet Merlot&#39;,
+       &#39;Tempranillo-Cabernet Sauvignon&#39;, &#39;Arinto&#39;, &#39;Aragonez&#39;,
+       &#39;Merlot-Cabernet Franc&#39;, &#39;Syrah-Petite Sirah&#39;, &#39;Cabernet Blend&#39;,
+       &#39;Maturana&#39;, &#39;Pecorino&#39;, &#39;Rotgipfler&#39;, &#39;Kinali Yapincak&#39;,
+       &#39;Cabernet Franc-Carmenère&#39;, &#39;Magliocco&#39;, &#39;Gamay Noir&#39;,
+       &#39;Sauvignon Gris&#39;, &#39;Spätburgunder&#39;, &#39;Picpoul&#39;, &#39;Vidal Blanc&#39;,
+       &#39;Albanello&#39;, &#39;White Port&#39;, &#39;Arneis&#39;, &#39;Malvasia&#39;, &#39;Plavac Mali&#39;,
+       &#39;Lemberger&#39;, &#39;Saperavi&#39;, &#39;Altesse&#39;, &#39;Blanc du Bois&#39;,
+       &#39;Provence white blend&#39;, &#39;Nosiola&#39;, &#39;Dornfelder&#39;,
+       &#39;Roussanne-Viognier&#39;, &#39;Ojaleshi&#39;, &#39;Godello&#39;, &#39;Mondeuse&#39;,
+       &#39;Perricone&#39;, &#39;Pedro Ximénez&#39;, &#39;Auxerrois&#39;, &#39;Syrah-Merlot&#39;,
+       &#39;Albana&#39;, &#39;Muskat&#39;, &#39;Lambrusco&#39;, &#39;Cabernet Sauvignon-Malbec&#39;,
+       &#39;Tinto Fino&#39;, &#39;Malbec-Cabernet Sauvignon&#39;, &#39;Moschofilero&#39;,
+       &#39;Grechetto&#39;, &#39;Encruzado&#39;, &#39;Carignano&#39;, &#39;Cabernet Franc-Merlot&#39;,
+       &#39;Torbato&#39;, &#39;Syrah-Petit Verdot&#39;, &#39;Garnacha Blanca&#39;, &#39;Pallagrello&#39;,
+       &#39;Morava&#39;, &#39;Syrah-Mourvèdre&#39;, &#39;Aleatico&#39;, &#39;Carcajolu&#39;, &#39;Kisi&#39;,
+       &#39;Shiraz-Grenache&#39;, &#39;Palomino&#39;, &#39;Grenache-Carignan&#39;, &#39;Nascetta&#39;,
+       &#39;Siria&#39;, &#39;Malbec-Syrah&#39;, &#39;Asprinio&#39;, &#39;Feteascǎ Regalǎ&#39;,
+       &#39;Lambrusco Grasparossa&#39;, &#39;Marselan&#39;, &#39;Tocai Friulano&#39;, &#39;Schiava&#39;,
+       &#39;Alfrocheiro&#39;, &#39;Chardonnay-Semillon&#39;, &#39;Corvina&#39;, &#39;Norton&#39;,
+       &#39;Alicante Bouschet&#39;, &#39;Tokaji&#39;, &#39;Moscadello&#39;,
+       &#39;Cabernet Sauvignon-Tempranillo&#39;, &#39;Carignan&#39;, &#39;Loureiro-Arinto&#39;,
+       &#39;Cabernet-Syrah&#39;, &#39;Sauvignon Blanc-Chardonnay&#39;, &#39;Symphony&#39;,
+       &#39;Edelzwicker&#39;, &#39;Madeira Blend&#39;, &#39;Black Muscat&#39;, &#39;Grenache Noir&#39;,
+       &#39;Durella&#39;, &#39;Xinomavro&#39;, &#39;Tinto del Pais&#39;,
+       &#39;Merlot-Cabernet Sauvignon&#39;, &#39;Cercial&#39;, &#39;Johannisberg Riesling&#39;,
+       &#39;Petite Verdot&#39;, &#39;Passerina&#39;, &#39;Valdiguié&#39;,
+       &#39;Colombard-Sauvignon Blanc&#39;, &#39;Kangoun&#39;, &#39;Loureiro&#39;, &#39;Posip&#39;,
+       &#39;Uva di Troia&#39;, &#39;Gros and Petit Manseng&#39;, &#39;Jacquère&#39;,
+       &#39;Kalecik Karasi&#39;, &#39;Karasakiz&#39;, &#39;Mourvèdre-Syrah&#39;, &#39;Negrette&#39;,
+       &#39;Zierfandler-Rotgipfler&#39;, &#39;Clairette&#39;, &#39;Raboso&#39;, &#39;País&#39;, &#39;Mauzac&#39;,
+       &#39;Pinot Auxerrois&#39;, &#39;Chenin Blanc-Sauvignon Blanc&#39;, &#39;Diamond&#39;,
+       &#39;Marzemino&#39;, &#39;Tinta Barroca&#39;, &#39;Chardonnay-Sauvignon Blanc&#39;,
+       &#39;Castelão&#39;, &#39;Trebbiano Spoletino&#39;, &#39;Teran&#39;, &#39;Trepat&#39;, &#39;Freisa&#39;,
+       &#39;Neuburger&#39;, &#39;Sämling&#39;, &#39;Chasselas&#39;, &#39;Hárslevelü&#39;, &#39;Trincadeira&#39;,
+       &#39;Merlot-Tannat&#39;, &#39;Rkatsiteli&#39;, &#39;Melnik&#39;, &#39;Siegerrebe&#39;,
+       &#39;Trousseau Gris&#39;, &#39;Grenache Blend&#39;, &#39;Gros Manseng&#39;,
+       &#39;Portuguese Rosé&#39;, &#39;Brachetto&#39;, &#39;Mantonico&#39;, &#39;Ekigaïna&#39;,
+       &#39;Muskateller&#39;, &#39;Aligoté&#39;, &#39;Sangiovese Cabernet&#39;,
+       &#39;Touriga Nacional-Cabernet Sauvignon&#39;, &#39;Muscat Blanc&#39;, &#39;Argaman&#39;,
+       &#39;Viognier-Roussanne&#39;, &#39;Pallagrello Bianco&#39;, &#39;Bobal&#39;,
+       &#39;Malvasia Istriana&#39;, &#39;Cabernet Sauvignon-Cabernet Franc&#39;,
+       &#39;Baco Noir&#39;, &#39;Veltliner&#39;, &#39;Tempranillo-Tannat&#39;, &#39;Morillon&#39;,
+       &#39;Touriga Franca&#39;, &#39;Picolit&#39;, &#39;Barbera-Nebbiolo&#39;, &#39;Prieto Picudo&#39;,
+       &#39;Gaglioppo&#39;, &#39;Tokay&#39;, &#39;Sacy&#39;, &#39;Piedirosso&#39;, &#39;Piquepoul Blanc&#39;,
+       &#39;Mansois&#39;, &#39;Chardonnay-Sauvignon&#39;, &#39;Tempranillo-Garnacha&#39;,
+       &#39;Carmenère-Cabernet Sauvignon&#39;, &#39;Chenin Blanc-Viognier&#39;,
+       &#39;Susumaniello&#39;, &#39;Vitovska&#39;, &#39;Orange Muscat&#39;, &#39;Grauburgunder&#39;,
+       &#39;Carignane&#39;, &#39;Moscatel Roxo&#39;, &#39;Tannat-Merlot&#39;, &#39;Nerello Cappuccio&#39;,
+       &#39;Counoise&#39;, &#39;Macabeo&#39;, &#39;Mazuelo&#39;, &#39;Sauvignon-Sémillon&#39;,
+       &#39;Tinta del Pais&#39;, &#39;Vranec&#39;, &#39;Mavrud&#39;, &#34;Cesanese d&#39;Affile&#34;,
+       &#39;Moscato Giallo&#39;, &#39;Debit&#39;, &#39;Verdil&#39;, &#39;Cabernet&#39;,
+       &#39;Verduzzo Friulano &#39;, &#39;Treixadura&#39;, &#34;Loin de l&#39;Oeil&#34;,
+       &#39;Coda di Volpe&#39;, &#39;Grenache-Mourvèdre&#39;, &#39;Forcallà&#39;, &#39;Viura-Verdejo&#39;,
+       &#39;Bombino Bianco&#39;, &#39;Pinot-Chardonnay&#39;, &#39;Syrah-Tempranillo&#39;,
+       &#39;Cabernet Sauvignon-Barbera&#39;, &#39;Merlot-Cabernet&#39;,
+       &#34;Muscat d&#39;Alexandrie&#34;, &#39;Jaen&#39;, &#39;Tinta del Toro&#39;, &#39;Timorasso&#39;,
+       &#39;Pigato&#39;, &#39;Sangiovese-Cabernet Sauvignon&#39;, &#39;Shiraz-Cabernet&#39;,
+       &#39;Viognier-Gewürztraminer&#39;, &#39;Prunelard&#39;,
+       &#39;Sauvignon Blanc-Chenin Blanc&#39;, &#39;Gros Plant&#39;,
+       &#39;Malbec-Petit Verdot&#39;, &#39;Colombard-Ugni Blanc&#39;, &#39;Grignolino&#39;,
+       &#39;Garnacha-Syrah&#39;, &#39;Rufete&#39;, &#39;Tempranillo-Shiraz&#39;, &#39;Mtsvane&#39;,
+       &#39;Chardonnay-Pinot Gris&#39;, &#39;Marawi&#39;, &#39;Chardonnay-Pinot Blanc&#39;,
+       &#39;Mataro&#39;, &#39;Tinta Cao&#39;, &#39;Blauer Portugieser&#39;, &#39;Ugni Blanc&#39;,
+       &#39;Groppello&#39;, &#39;Semillon-Chardonnay&#39;, &#39;Irsai Oliver&#39;, &#39;Alvarelhão&#39;,
+       &#39;Poulsard&#39;, &#39;Grenache-Shiraz&#39;, &#39;Baga-Touriga Nacional&#39;, &#39;Carineña&#39;,
+       &#39;Pignoletto&#39;, &#39;Muscatel&#39;, &#39;Mavrodaphne&#39;, &#39;Ciliegiolo&#39;,
+       &#39;Viognier-Grenache Blanc&#39;, &#39;Greco Bianco&#39;,
+       &#39;Cabernet Sauvignon-Merlot-Shiraz&#39;, &#39;Sciaccerellu&#39;, &#39;Zelen&#39;,
+       &#39;Alicante&#39;, &#39;Emir&#39;, &#39;Rosenmuskateller&#39;, &#39;Tsolikouri&#39;, &#39;Narince&#39;,
+       &#39;Malbec-Cabernet&#39;, &#39;Touriga&#39;, &#39;Grecanico&#39;, &#39;Carmenère-Syrah&#39;,
+       &#39;Madeleine Angevine&#39;, &#39;Mavroudi&#39;, &#39;Pinot Blanc-Pinot Noir&#39;,
+       &#39;Muscat Hamburg&#39;, &#39;Tempranillo Blanco&#39;, &#39;Casavecchia&#39;,
+       &#39;Pinot Gris-Gewürztraminer&#39;, &#39;White Riesling&#39;, &#39;Tinto Velasco&#39;,
+       &#39;Hondarrabi Zuri&#39;, &#39;Nuragus&#39;, &#39;Xynisteri&#39;, &#39;Kadarka&#39;,
+       &#39;Sauvignon Musqué&#39;, &#39;Roussanne-Marsanne&#39;, &#39;Incrocio Manzoni&#39;,
+       &#39;Terrantez&#39;, &#39;Bual&#39;, &#39;Okuzgozu&#39;, &#39;Rivaner&#39;, &#39;Doña Blanca&#39;,
+       &#39;Graševina&#39;, &#39;Lambrusco Salamino&#39;, &#39;Sangiovese-Syrah&#39;,
+       &#39;Tannat-Cabernet Franc&#39;, &#39;Thrapsathiri&#39;, &#39;Fer Servadou&#39;, &#39;Mission&#39;,
+       &#39;Kekfrankos&#39;, &#39;Cococciola&#39;, &#39;Blauburgunder&#39;, &#39;Marquette&#39;,
+       &#39;Romorantin&#39;, &#39;Verdejo-Sauvignon Blanc&#39;, &#39;Braucol&#39;,
+       &#39;Malvasia-Viura&#39;, &#39;Savatiano&#39;, &#39;Cabernet Franc-Malbec&#39;,
+       &#39;Pallagrello Nero&#39;, &#39;Rebula&#39;, &#39;Vespolina&#39;, &#39;Shiraz-Malbec&#39;, &#39;Rebo&#39;,
+       &#39;Macabeo-Chardonnay&#39;, &#39;Tempranillo-Malbec&#39;, &#39;Tamjanika&#39;,
+       &#39;Trousseau&#39;, &#39;Bacchus&#39;, &#39;Syrah-Malbec&#39;, &#39;Syrah-Cabernet Franc&#39;,
+       &#39;Macabeo-Moscatel&#39;, &#39;Cariñena-Garnacha&#39;, &#39;Plyto&#39;,
+       &#39;Códega do Larinho&#39;, &#39;Sideritis&#39;, &#39;Çalkarası&#39;, &#39;Azal&#39;,
+       &#39;Moscatel Graúdo&#39;, &#39;Viosinho&#39;, &#39;Moschofilero-Chardonnay&#39;,
+       &#39;Paralleda&#39;, &#39;Rara Neagra&#39;, &#39;Malvasia di Candia&#39;, &#39;Maria Gomes&#39;,
+       &#39;Molinara&#39;, &#39;Malvar&#39;, &#39;Airen&#39;, &#39;Erbaluce&#39;, &#39;Muscat of Alexandria&#39;,
+       &#39;Verdosilla&#39;, &#39;Abouriou&#39;, &#39;Pinot Noir-Syrah&#39;, &#39;Nielluciu&#39;,
+       &#39;Malbec-Bonarda&#39;, &#39;Vespaiolo&#39;, &#39;Malbec-Carménère&#39;, &#39;Biancolella&#39;,
+       &#39;Sauvignon Blanc-Verdejo&#39;, &#39;Aidani&#39;, &#39;Garnacha-Monastrell&#39;,
+       &#39;Vinhão&#39;, &#39;Souzao&#39;, &#39;Roter Traminer&#39;, &#39;Moscatel de Alejandría&#39;,
+       &#39;Rolle&#39;, &#39;Tinta Francisca&#39;, &#39;Malvasia Nera&#39;, &#39;Orangetraube&#39;,
+       &#39;Riesling-Chardonnay&#39;, &#39;Žilavka&#39;, &#39;Portuguiser&#39;, &#39;Listán Negro&#39;,
+       &#39;Pinotage-Merlot&#39;, &#39;Muscadine&#39;, &#39;Maria Gomes-Bical&#39;, &#39;Grolleau&#39;,
+       &#39;Zlahtina&#39;, &#39;Syrah-Grenache-Viognier&#39;, &#39;Jacquez&#39;, &#39;Gouveio&#39;,
+       &#39;Canaiolo&#39;, &#39;Carignan-Syrah&#39;, &#39;Bombino Nero&#39;,
+       &#39;Chardonnay-Riesling&#39;, &#39;Malagouzia-Chardonnay&#39;, &#39;Mavrotragano&#39;,
+       &#39;Bovale&#39;, &#39;Frankovka&#39;, &#39;Shiraz-Roussanne&#39;, &#39;Cabernet-Shiraz&#39;,
+       &#39;Syrah-Carignan&#39;, &#39;Elbling&#39;, &#39;Gragnano&#39;, &#39;Garnacha Blend&#39;,
+       &#39;Pinot Blanc-Chardonnay&#39;, &#39;Schwartzriesling&#39;, &#39;Petit Meslier&#39;,
+       &#39;Bastardo&#39;, &#39;Vidadillo&#39;, &#39;Misket&#39;, &#39;Chardonnay Weissburgunder&#39;,
+       &#39;Other&#39;, &#39;Robola&#39;, &#39;Merlot-Shiraz&#39;, &#39;Malagouzia&#39;, &#39;Folle Blanche&#39;,
+       &#39;Malbec Blend&#39;, &#39;Merlot-Syrah&#39;, &#39;Tamianka&#39;, &#39;Cabernet Pfeffer&#39;,
+       &#39;Morio Muskat&#39;, &#39;Rabigato&#39;, &#39;Babić&#39;, &#39;Roviello&#39;, &#39;Yapincak&#39;,
+       &#39;Sauvignonasse&#39;, &#39;Viognier-Marsanne&#39;, &#39;Mandilaria&#39;, &#39;Meseguera&#39;,
+       &#39;Alvarinho-Chardonnay&#39;, &#39;Saperavi-Merlot&#39;, &#39;Pinot Blanc-Viognier&#39;,
+       &#39;Teroldego Rotaliano&#39;, &#39;Biancu Gentile&#39;, &#39;Garnacha-Tempranillo&#39;,
+       &#39;Xinisteri&#39;, &#39;Sauvignon Blanc-Sauvignon Gris&#39;,
+       &#39;Trebbiano di Lugana&#39;, &#39;Albarossa&#39;, &#39;Ryzlink Rýnský&#39;, &#39;Verdeca&#39;,
+       &#39;Cabernet Sauvignon Grenache&#39;, &#39;Tămâioasă Românească&#39;,
+       &#39;Black Monukka&#39;, &#39;Merlot-Grenache&#39;, &#39;Vranac&#39;, &#39;Tempranillo-Syrah&#39;,
+       &#39;Chardonel&#39;, &#39;Silvaner-Traminer&#39;, &#39;Uvalino&#39;,
+       &#39;Merseguera-Sauvignon Blanc&#39;, &#39;Cabernet-Malbec&#39;, &#39;Boğazkere&#39;,
+       &#39;Gelber Traminer&#39;, &#39;Vermentino Nero&#39;, &#39;Cayuga&#39;, &#39;Tinta Amarela&#39;,
+       &#39;Tinta Negra Mole&#39;, &#39;Moscato Rosa&#39;, &#39;Chelois&#39;,
+       &#39;Sauvignon Blanc-Assyrtiko&#39;, nan, &#39;Muscadel&#39;, &#39;Shiraz-Tempranillo&#39;,
+       &#39;Roussanne-Grenache Blanc&#39;, &#39;Biancale&#39;, &#39;Ansonica&#39;,
+       &#39;Syrah-Bonarda&#39;, &#39;Durif&#39;, &#39;Franconia&#39;, &#39;Malbec-Tempranillo&#39;,
+       &#39;Nasco&#39;, &#39;Monastrell-Petit Verdot&#39;, &#39;Sirica&#39;, &#39;Vital&#39;, &#39;Espadeiro&#39;,
+       &#39;Apple&#39;, &#39;Pinot Grigio-Sauvignon Blanc&#39;, &#39;Blatina&#39;, &#39;Karalahna&#39;,
+       &#39;Feteasca&#39;, &#39;Sercial&#39;, &#39;Valvin Muscat&#39;, &#39;Malvasia Fina&#39;,
+       &#39;Roditis-Moschofilero&#39;, &#39;St. Vincent&#39;, &#39;Chancellor&#39;, &#39;Premsal&#39;,
+       &#39;Jampal&#39;, &#39;Tokay Pinot Gris&#39;, &#39;Colorino&#39;, &#39;Picapoll&#39;, &#39;Blauburger&#39;,
+       &#39;Tinta Madeira&#39;, &#39;Centesimino&#39;, &#39;Grenache Gris&#39;, &#39;Trajadura&#39;,
+       &#39;Merlot-Petite Verdot&#39;, &#39;Ramisco&#39;, &#39;Catalanesca&#39;,
+       &#39;Garnacha-Cabernet&#39;, &#39;Garnacha-Cariñena&#39;, &#39;Gamza&#39;,
+       &#39;Cabernet Franc-Lemberger&#39;, &#39;Chardonnay-Albariño&#39;,
+       &#39;Shiraz-Mourvèdre&#39;, &#39;Mavrokalavryta&#39;, &#39;Favorita&#39;, &#39;Babosa Negro&#39;,
+       &#39;Tintilia &#39;, &#39;Dafni&#39;, &#39;Petit Courbu&#39;, &#39;Kotsifali&#39;, &#39;Parraleta&#39;,
+       &#39;Moscato di Noto&#39;, &#39;Roscetto&#39;, &#39;Torontel&#39;, &#39;Otskhanuri Sapere&#39;,
+       &#39;Viognier-Valdiguié&#39;, &#39;Trollinger&#39;, &#39;Tsapournakos&#39;, &#39;Francisa&#39;,
+       &#39;Kuntra&#39;, &#39;Pignolo&#39;, &#39;Caprettone&#39;, &#39;Ondenc&#39;, &#39;Athiri&#39;,
+       &#39;Bobal-Cabernet Sauvignon&#39;], dtype=object)</pre>
 </div>
 
 </div>
