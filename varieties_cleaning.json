@@ -1,0 +1,7030 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carignan",
+          "Carignane",
+          "Carignano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carignan"
+      },
+      {
+        "from": [
+          "Moscatel",
+          "Muscatel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscatel"
+      },
+      {
+        "from": [
+          "Cercial",
+          "Sercial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cerceal"
+      },
+      {
+        "from": [
+          "Sylvaner",
+          "Silvaner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Silvaner"
+      },
+      {
+        "from": [
+          "Assyrtico",
+          "Assyrtiko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Assyrtiko"
+      },
+      {
+        "from": [
+          "Malagousia",
+          "Malagouzia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malagousia"
+      },
+      {
+        "from": [
+          "Petit Verdot",
+          "Petite Verdot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Petit Verdot"
+      },
+      {
+        "from": [
+          "Tinta de Toro",
+          "Tinta del Toro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tinta de Toro"
+      },
+      {
+        "from": [
+          "Xynisteri",
+          "Xinisteri"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Xynisteri"
+      },
+      {
+        "from": [
+          "Tinto del Pais",
+          "Tinta del Pais"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabernet Sauvignon-Merlot",
+          "Cabernet Sauvignon-Syrah",
+          "Cabernet Sauvignon-Carmenère",
+          "Cabernet Sauvignon-Shiraz",
+          "Cabernet Sauvignon-Cabernet Franc",
+          "Cabernet Sauvignon-Malbec",
+          "Cabernet Sauvignon-Tempranillo",
+          "Cabernet Sauvignon-Sangiovese",
+          "Cabernet Sauvignon-Merlot-Shiraz",
+          "Cabernet Sauvignon Grenache",
+          "Cabernet Sauvignon-Barbera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Sauvignon Blend"
+      },
+      {
+        "from": [
+          "Sauvignon Blanc-Semillon",
+          "Sauvignon Blanc-Chardonnay",
+          "Sauvignon Blanc-Chenin Blanc",
+          "Sauvignon Blanc-Verdejo",
+          "Sauvignon Blanc-Assyrtiko",
+          "Sauvignon Blanc-Sauvignon Gris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sauvignon Blanc Blend"
+      },
+      {
+        "from": [
+          "Cabernet Franc-Merlot",
+          "Cabernet Franc-Cabernet Sauvignon",
+          "Cabernet Franc-Malbec",
+          "Cabernet Franc-Carmenère",
+          "Cabernet Franc-Lemberger"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Franc Blend"
+      },
+      {
+        "from": [
+          "Moscatel",
+          "Muscadelle",
+          "Moscadello",
+          "Muscadel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscatel"
+      },
+      {
+        "from": [
+          "Moscato",
+          "Muscat",
+          "Muskat",
+          "Misket"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscato"
+      },
+      {
+        "from": [
+          "Rosato",
+          "Rosado",
+          "Roscetto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rosato"
+      },
+      {
+        "from": [
+          "Sousão",
+          "Souzao",
+          "Sacy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sousão"
+      },
+      {
+        "from": [
+          "Malbec-Cabernet Sauvignon",
+          "Malbec-Cabernet Franc",
+          "Malbec-Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      },
+      {
+        "from": [
+          "Merlot-Cabernet Sauvignon",
+          "Merlot-Cabernet Franc",
+          "Merlot-Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot Blend"
+      },
+      {
+        "from": [
+          "Pinot Noir",
+          "Pinot Nero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Noir"
+      },
+      {
+        "from": [
+          "Torrontés",
+          "Terrantez"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Torrontés"
+      },
+      {
+        "from": [
+          "Turbiana",
+          "Trebbiano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Turbiana"
+      },
+      {
+        "from": [
+          "Muscat Blanc",
+          "Muscat Blanc à Petits Grains"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muscat Blanc"
+      },
+      {
+        "from": [
+          "Picpoul",
+          "Picapoll"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Picpoul"
+      },
+      {
+        "from": [
+          "Trepat",
+          "Torbato"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trepat"
+      },
+      {
+        "from": [
+          "Vidal",
+          "Vital"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vidal"
+      },
+      {
+        "from": [
+          "Grenache",
+          "Garnacha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      },
+      {
+        "from": [
+          "Mavrud",
+          "Mavroudi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mavrud"
+      },
+      {
+        "from": [
+          "Robola",
+          "Rebula"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Robola"
+      },
+      {
+        "from": [
+          "Sangiovese-Cabernet Sauvignon",
+          "Sangiovese Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sangiovese-Cabernet Sauvignon"
+      },
+      {
+        "from": [
+          "Chardonnay-Sauvignon",
+          "Chardonnay-Sauvignon Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay-Sauvignon"
+      },
+      {
+        "from": [
+          "Aragonez",
+          "Aragonês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aragonez"
+      },
+      {
+        "from": [
+          "Insolia",
+          "Inzolia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Insolia"
+      },
+      {
+        "from": [
+          "Tinto Fino",
+          "Tinta Fina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo"
+      },
+      {
+        "from": [
+          "Vranec",
+          "Vranac"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vranec"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tamjanika",
+          "Tamianka"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tamjanika"
+      },
+      {
+        "from": [
+          "Grenache-Syrah",
+          "Garnacha-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache-Syrah"
+      },
+      {
+        "from": [
+          "Grenache Blend",
+          "Garnacha Blend"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chenin Blanc-Chardonnay",
+          "Chenin Blanc-Viognier",
+          "Chenin Blanc-Sauvignon Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chenin Blanc Blend"
+      },
+      {
+        "from": [
+          "Pinot Blanc-Chardonnay",
+          "Pinot Blanc-Pinot Noir",
+          "Pinot Blanc-Viognier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Blanc  Blend"
+      },
+      {
+        "from": [
+          "Colombard-Sauvignon Blanc",
+          "Colombard-Ugni Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colombard  Blend"
+      },
+      {
+        "from": [
+          "Touriga Nacional-Cabernet Sauvignon",
+          "Touriga Nacional Blend"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Touriga Nacional Blend"
+      },
+      {
+        "from": [
+          "Monastrell-Syrah",
+          "Monastrell-Petit Verdot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Monastrell Blend"
+      },
+      {
+        "from": [
+          "Pinot Grigio-Sauvignon Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Grigio Blend"
+      },
+      {
+        "from": [
+          "Pinot Gris",
+          "Pinot Gris-Gewürztraminer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Gris"
+      },
+      {
+        "from": [
+          "Ugni Blanc-Colombard",
+          "Ugni Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ugni Blanc"
+      },
+      {
+        "from": [
+          "Sangiovese-Cabernet Sauvignon",
+          "Sangiovese-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sangiovese Blend"
+      },
+      {
+        "from": [
+          "Vermentino",
+          "Vermentino Nero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vermentino"
+      },
+      {
+        "from": [
+          "Carmenère-Cabernet Sauvignon",
+          "Carmenère-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carmenère Blend"
+      },
+      {
+        "from": [
+          "Alvarinho",
+          "Alvarinho-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alvarinho"
+      },
+      {
+        "from": [
+          "Zierfandler",
+          "Zierfandler-Rotgipfler"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zierfandler"
+      },
+      {
+        "from": [
+          "Gewürztraminer",
+          "Gewürztraminer-Riesling"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gewürztraminer"
+      },
+      {
+        "from": [
+          "Syrah-Grenache",
+          "Syrah-Grenache-Viognier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah-Grenache"
+      },
+      {
+        "from": [
+          "Tannat-Cabernet",
+          "Tannat-Cabernet Franc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tannat-Cabernet"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tokay",
+                "l": "Tokay"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value.replace(\"Tokay\",\"Tokaji\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column variety using expression value.replace(\"Tokay\",\"Tokaji\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Alvarinho",
+                "l": "Alvarinho"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value.replace(\"Alvarinho\",\"Albariño\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column variety using expression value.replace(\"Alvarinho\",\"Albariño\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Cabernet",
+          "Syrah-Cabernet Franc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah-Cabernet"
+      },
+      {
+        "from": [
+          "Roussanne-Viognier",
+          "Viognier-Roussanne"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roussanne-Viognier"
+      },
+      {
+        "from": [
+          "Chardonnay-Riesling",
+          "Riesling-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay-Riesling"
+      },
+      {
+        "from": [
+          "Chardonnay-Viognier",
+          "Viognier-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay-Viognier"
+      },
+      {
+        "from": [
+          "Grenache-Carignan",
+          "Carignan-Grenache"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache-Carignan"
+      },
+      {
+        "from": [
+          "Tempranillo-Garnacha",
+          "Garnacha-Tempranillo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo-Garnacha"
+      },
+      {
+        "from": [
+          "Marsanne-Roussanne",
+          "Roussanne-Marsanne"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marsanne-Roussanne"
+      },
+      {
+        "from": [
+          "Viognier-Marsanne",
+          "Marsanne-Viognier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Viognier-Marsanne"
+      },
+      {
+        "from": [
+          "Chardonnay-Semillon",
+          "Semillon-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay-Semillon"
+      },
+      {
+        "from": [
+          "Touriga Nacional",
+          "Baga-Touriga Nacional"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Touriga Nacional"
+      },
+      {
+        "from": [
+          "Cariñena-Garnacha",
+          "Garnacha-Cariñena"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cariñena-Garnacha"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Carineña",
+                "l": "Carineña"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carineña"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carignan"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cariñena-Garnacha",
+                "l": "Cariñena-Garnacha"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cariñena-Garnacha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carignan"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Carignan-Syrah",
+                "l": "Carignan-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carignan-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carignan"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cesanese d'Affile",
+                "l": "Cesanese d'Affile"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cesanese d'Affile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cesanese"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Gamay Noir",
+                "l": "Gamay Noir"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gamay Noir"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gamay"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Mourvèdre-Syrah",
+                "l": "Mourvèdre-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mourvèdre-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mourvèdre"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Moschofilero-Chardonnay",
+                "l": "Moschofilero-Chardonnay"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moschofilero-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moschofilero"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Moscato di Noto",
+                "l": "Moscato di Noto"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moscato di Noto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscato"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Moscato Rosa",
+                "l": "Moscato Rosa"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moscato Rosa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscato"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Moscatel de Alejandría",
+                "l": "Moscatel de Alejandría"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moscatel de Alejandría"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscatel"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Moscatel Graúdo",
+                "l": "Moscatel Graúdo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moscatel Graúdo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscatel"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Moscatel Roxo",
+                "l": "Moscatel Roxo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moscatel Roxo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscatel"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merlot-Argaman",
+                "l": "Merlot-Argaman"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merlot-Argaman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merlot-Grenache",
+                "l": "Merlot-Grenache"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merlot-Grenache"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merlot-Malbec",
+                "l": "Merlot-Malbec"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merlot-Malbec"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merlot-Petite Verdot",
+                "l": "Merlot-Petite Verdot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merlot-Petite Verdot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merlot-Shiraz",
+                "l": "Merlot-Shiraz"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merlot-Shiraz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merlot-Syrah",
+                "l": "Merlot-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merlot-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merlot-Tannat",
+                "l": "Merlot-Tannat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merlot-Tannat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merlot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Meseguera",
+                "l": "Meseguera"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Meseguera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merseguera"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Merseguera-Sauvignon Blanc",
+                "l": "Merseguera-Sauvignon Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Merseguera-Sauvignon Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merseguera"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Marsanne-Roussanne",
+                "l": "Marsanne-Roussanne"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marsanne-Roussanne"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marsanne"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Maria Gomes-Bical",
+                "l": "Maria Gomes-Bical"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Maria Gomes-Bical"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maria Gomes"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Maria Gomes",
+                "l": "Maria Gomes"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Maria Gomes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fernão Pires"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Viognier-Gewürztraminer",
+                "l": "Viognier-Gewürztraminer"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Viognier-Gewürztraminer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Viognier"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Viognier-Grenache Blanc",
+                "l": "Viognier-Grenache Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Viognier-Grenache Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Viognier"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Viognier-Marsanne",
+                "l": "Viognier-Marsanne"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Viognier-Marsanne"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Viognier"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Viognier-Valdiguié",
+                "l": "Viognier-Valdiguié"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Viognier-Valdiguié"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Viognier"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vidal",
+                "l": "Vidal"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vidal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vidal Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Verduzzo Friulano ",
+                "l": "Verduzzo Friulano "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Verduzzo Friulano "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Verduzzo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Verdejo-Viura",
+                "l": "Verdejo-Viura"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Verdejo-Viura"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Verdejo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Verdejo-Sauvignon Blanc",
+                "l": "Verdejo-Sauvignon Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Verdejo-Sauvignon Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Verdejo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trousseau Gris",
+                "l": "Trousseau Gris"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Trousseau Gris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trousseau"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trebbiano Spoletino",
+                "l": "Trebbiano Spoletino"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Trebbiano Spoletino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trebbiano"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trebbiano di Lugana",
+                "l": "Trebbiano di Lugana"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Trebbiano di Lugana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trebbiano"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Touriga",
+                "l": "Touriga"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Touriga"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Touriga Nacional"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tocai",
+                "l": "Tocai"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tocai"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tocai Friulano"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Roussanne-Grenache Blanc",
+                "l": "Roussanne-Grenache Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Roussanne-Grenache Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roussanne"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Roussanne-Viognier",
+                "l": "Roussanne-Viognier"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Roussanne-Viognier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roussanne"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Roditis-Moschofilero",
+                "l": "Roditis-Moschofilero"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Roditis-Moschofilero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roditis"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinotage-Merlot",
+                "l": "Pinotage-Merlot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinotage-Merlot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinotage"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinot Noir-Syrah",
+                "l": "Pinot Noir-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinot Noir-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Noir"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinot Noir-Gamay",
+                "l": "Pinot Noir-Gamay"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinot Noir-Gamay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Noir"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Muscat of Alexandria",
+                "l": "Muscat of Alexandria"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Muscat of Alexandria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muscat d'Alexandrie"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malvasia Bianca",
+                "l": "Malvasia Bianca"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malvasia Bianca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malvasia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malvasia di Candia",
+                "l": "Malvasia di Candia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malvasia di Candia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malvasia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malvasia Fina",
+                "l": "Malvasia Fina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malvasia Fina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malvasia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malvasia Istriana",
+                "l": "Malvasia Istriana"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malvasia Istriana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malvasia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malvasia Nera",
+                "l": "Malvasia Nera"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malvasia Nera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malvasia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malvasia-Viura",
+                "l": "Malvasia-Viura"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malvasia-Viura"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malvasia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malagouzia-Chardonnay",
+                "l": "Malagouzia-Chardonnay"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malagouzia-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malagouzia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Macabeo-Chardonnay",
+                "l": "Macabeo-Chardonnay"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Macabeo-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Macabeo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Macabeo-Moscatel",
+                "l": "Macabeo-Moscatel"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Macabeo-Moscatel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Macabeo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Loureiro-Arinto",
+                "l": "Loureiro-Arinto"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Loureiro-Arinto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Loureiro"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Lambrusco di Sorbara",
+                "l": "Lambrusco di Sorbara"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lambrusco di Sorbara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lambrusco"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Lambrusco Grasparossa",
+                "l": "Lambrusco Grasparossa"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lambrusco Grasparossa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lambrusco"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Lambrusco Salamino",
+                "l": "Lambrusco Salamino"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lambrusco Salamino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lambrusco"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grenache Gris",
+                "l": "Grenache Gris"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grenache Gris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grenache Noir",
+                "l": "Grenache Noir"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grenache Noir"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Greco Bianco",
+                "l": "Greco Bianco"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Greco Bianco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Greco"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Feteasca Neagra",
+                "l": "Feteasca Neagra"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Feteasca Neagra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feteasca"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Feteascǎ Regalǎ",
+                "l": "Feteascǎ Regalǎ"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Feteascǎ Regalǎ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feteasca"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malagousia",
+          "Malagouzia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malagousia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinot Gris",
+          "Pinot Grigio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Gris"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinot Blanc",
+          "Pinot Bianco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moscato",
+          "Moscatel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moscato"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Petite Sirah",
+          "Syrah-Petite Sirah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Petite Sirah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Petit Verdot",
+          "Syrah-Petit Verdot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Petit Verdot"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gelber Muskateller",
+          "Muskateller",
+          "Rosenmuskateller"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muskateller"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tempranillo",
+          "Syrah-Tempranillo",
+          "Tempranillo-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo"
+      },
+      {
+        "from": [
+          "Tempranillo",
+          "Tempranillo-Shiraz",
+          "Shiraz-Tempranillo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tempranillo",
+          "Tempranillo-Merlot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo"
+      },
+      {
+        "from": [
+          "Tempranillo",
+          "Tempranillo-Tannat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Auxerrois",
+          "Pinot Auxerrois"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Auxerrois"
+      },
+      {
+        "from": [
+          "Saperavi",
+          "Saperavi-Merlot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Saperavi"
+      },
+      {
+        "from": [
+          "Riesling",
+          "White Riesling"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Riesling"
+      },
+      {
+        "from": [
+          "Pallagrello",
+          "Pallagrello Bianco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pallagrello"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Alicante",
+                "l": "Alicante"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alicante"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alicante Bouschet"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Barbera-Nebbiolo",
+                "l": "Barbera-Nebbiolo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Barbera-Nebbiolo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Barbera"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Garnacha Blanca",
+                "l": "Garnacha Blanca"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Garnacha Blanca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Garnacha Tintorera",
+                "l": "Garnacha Tintorera"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Garnacha Tintorera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alicante Bouschet"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Garnacha-Cabernet",
+                "l": "Garnacha-Cabernet"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Garnacha-Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alicante Bouschet"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Garnacha-Monastrell",
+                "l": "Garnacha-Monastrell"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Garnacha-Monastrell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alicante Bouschet"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grenache Blend",
+                "l": "Grenache Blend"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grenache Blend"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grenache-Shiraz",
+                "l": "Grenache-Shiraz"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grenache-Shiraz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grenache-Syrah",
+                "l": "Grenache-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grenache-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grenache-Mourvèdre",
+                "l": "Grenache-Mourvèdre"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grenache-Mourvèdre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grenache-Carignan",
+                "l": "Grenache-Carignan"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grenache-Carignan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenache"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Johannisberg Riesling",
+                "l": "Johannisberg Riesling"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Johannisberg Riesling"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Riesling"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Lemberger",
+                "l": "Lemberger"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lemberger"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Blaufränkisch"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Bonarda",
+                "l": "Syrah-Bonarda"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Bonarda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Cabernet",
+                "l": "Syrah-Cabernet"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Cabernet Sauvignon",
+                "l": "Syrah-Cabernet Sauvignon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Cabernet Sauvignon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Carignan",
+                "l": "Syrah-Carignan"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Carignan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Grenache",
+                "l": "Syrah-Grenache"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Grenache"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Malbec",
+                "l": "Syrah-Malbec"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Malbec"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Merlot",
+                "l": "Syrah-Merlot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Merlot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Mourvèdre",
+                "l": "Syrah-Mourvèdre"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Mourvèdre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Syrah-Viognier",
+                "l": "Syrah-Viognier"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Syrah-Viognier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Syrah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tannat-Cabernet",
+                "l": "Tannat-Cabernet"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tannat-Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tannat"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tannat-Merlot",
+                "l": "Tannat-Merlot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tannat-Merlot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tannat"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tannat-Syrah",
+                "l": "Tannat-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tannat-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tannat"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tempranillo-Cabernet Sauvignon",
+                "l": "Tempranillo-Cabernet Sauvignon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tempranillo-Cabernet Sauvignon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tempranillo-Garnacha",
+                "l": "Tempranillo-Garnacha"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tempranillo-Garnacha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tempranillo-Malbec",
+                "l": "Tempranillo-Malbec"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tempranillo-Malbec"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tempranillo Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Teroldego Rotaliano",
+                "l": "Teroldego Rotaliano"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Teroldego Rotaliano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Teroldego"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Weissburgunder",
+                "l": "Weissburgunder"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Weissburgunder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cabernet-Malbec",
+                "l": "Cabernet-Malbec"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabernet-Malbec"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cabernet-Shiraz",
+                "l": "Cabernet-Shiraz"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabernet-Shiraz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cabernet-Syrah",
+                "l": "Cabernet-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabernet-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay Weissburgunder",
+                "l": "Chardonnay Weissburgunder"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay Weissburgunder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay-Albariño",
+                "l": "Chardonnay-Albariño"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay-Albariño"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay-Pinot Blanc",
+                "l": "Chardonnay-Pinot Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay-Pinot Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay-Pinot Gris",
+                "l": "Chardonnay-Pinot Gris"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay-Pinot Gris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay-Riesling",
+                "l": "Chardonnay-Riesling"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay-Riesling"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay-Sauvignon",
+                "l": "Chardonnay-Sauvignon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay-Sauvignon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay-Semillon",
+                "l": "Chardonnay-Semillon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay-Semillon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Chardonnay-Viognier",
+                "l": "Chardonnay-Viognier"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chardonnay-Viognier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chardonnay Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Black Muscat",
+                "l": "Black Muscat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Black Muscat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muscat Hamburg"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinot-Chardonnay",
+                "l": "Pinot-Chardonnay"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinot-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Noir"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sauvignon Musqué",
+                "l": "Sauvignon Musqué"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sauvignon Musqué"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sauvignon Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sauvignon-Sémillon",
+                "l": "Sauvignon-Sémillon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sauvignon-Sémillon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Semillon-Sauvignon Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Schwartzriesling",
+                "l": "Schwartzriesling"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Schwartzriesling"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Meunier"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Shiraz-Cabernet",
+                "l": "Shiraz-Cabernet"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shiraz-Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shiraz Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Shiraz-Cabernet Sauvignon",
+                "l": "Shiraz-Cabernet Sauvignon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shiraz-Cabernet Sauvignon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shiraz Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Shiraz-Grenache",
+                "l": "Shiraz-Grenache"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shiraz-Grenache"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shiraz Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Shiraz-Malbec",
+                "l": "Shiraz-Malbec"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shiraz-Malbec"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shiraz Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Shiraz-Mourvèdre",
+                "l": "Shiraz-Mourvèdre"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shiraz-Mourvèdre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shiraz Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Shiraz-Roussanne",
+                "l": "Shiraz-Roussanne"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shiraz-Roussanne"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shiraz Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Shiraz-Viognier",
+                "l": "Shiraz-Viognier"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shiraz-Viognier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shiraz Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Silvaner-Traminer",
+                "l": "Silvaner-Traminer"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Silvaner-Traminer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Silvaner"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Spätburgunder",
+                "l": "Spätburgunder"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Spätburgunder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Noir"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Muscat Blanc",
+                "l": "Muscat Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Muscat Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muscat Canelli"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cabernet Merlot",
+                "l": "Cabernet Merlot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabernet Merlot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Grauburgunder",
+                "l": "Grauburgunder"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grauburgunder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Gris"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Bonarda",
+                "l": "Malbec-Bonarda"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Bonarda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Cabernet Sauvignon",
+                "l": "Malbec-Cabernet Sauvignon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Cabernet Sauvignon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Carménère",
+                "l": "Malbec-Carménère"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Carménère"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Merlot",
+                "l": "Malbec-Merlot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Merlot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Petit Verdot",
+                "l": "Malbec-Petit Verdot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Petit Verdot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Syrah",
+                "l": "Malbec-Syrah"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Syrah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Tannat",
+                "l": "Malbec-Tannat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Tannat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Malbec-Tempranillo",
+                "l": "Malbec-Tempranillo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Malbec-Tempranillo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Malbec Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Portuguiser",
+                "l": "Portuguiser"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Portuguiser"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Blauer Portugieser"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tamjanika",
+                "l": "Tamjanika"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tamjanika"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muscat Canelli"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ryzlink Rýnský",
+                "l": "Ryzlink Rýnský"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ryzlink Rýnský"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Riesling"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinot Blanc  Blend",
+                "l": "Pinot Blanc  Blend"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinot Blanc  Blend"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Blanc Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinot Grigio Blend",
+                "l": "Pinot Grigio Blend"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinot Grigio Blend"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Gris"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sauvignon",
+                "l": "Sauvignon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sauvignon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sauvignon Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Fumé Blanc",
+                "l": "Fumé Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fumé Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sauvignon Blanc"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Früburgunder",
+                "l": "Früburgunder"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Früburgunder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Noir"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Colombard  Blend",
+                "l": "Colombard  Blend"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Colombard  Blend"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colombard Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cabernet Blend",
+                "l": "Cabernet Blend"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabernet Blend"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Sauvignon Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cabernet",
+                "l": "Cabernet"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabernet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabernet Sauvignon"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Bobal-Cabernet Sauvignon",
+                "l": "Bobal-Cabernet Sauvignon"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bobal-Cabernet Sauvignon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bobal"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Blauburgunder",
+                "l": "Blauburgunder"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Blauburgunder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinot Noir"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Uva di Troia",
+                "l": "Uva di Troia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Uva di Troia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nero di Troia"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ugni Blanc",
+                "l": "Ugni Blanc"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ugni Blanc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trebbiano"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trajadura",
+                "l": "Trajadura"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Trajadura"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Treixadura"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tinta Amarela",
+                "l": "Tinta Amarela"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tinta Amarela"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trincadeira"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Kuntra",
+                "l": "Kuntra"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kuntra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Karasakiz"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Viura-Chardonnay",
+                "l": "Viura-Chardonnay"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Viura-Chardonnay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Viura Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Viura-Verdejo",
+                "l": "Viura-Verdejo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Viura-Verdejo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Viura Blend"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tokay Pinot Gris",
+                "l": "Tokay Pinot Gris"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tokay Pinot Gris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tokaji"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sauvignonasse",
+                "l": "Sauvignonasse"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sauvignonasse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Friulano"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "variety",
+          "expression": "value",
+          "columnName": "variety",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "variety",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Petite Sirah"
+      }
+    ],
+    "description": "Mass edit cells in column variety"
+  }
+]
