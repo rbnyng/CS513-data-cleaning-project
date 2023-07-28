@@ -1,0 +1,881 @@
+
+/* Start of top-level graph */
+digraph Workflow {
+rankdir=TB
+
+/* Title for graph */
+fontname=Helvetica; fontsize=18; labelloc=t
+label=Linear_OR
+
+/* Start of double cluster for drawing box around nodes in workflow */
+subgraph cluster_workflow_box_outer { label=""; color=black; penwidth=2
+subgraph cluster_workflow_box_inner { label=""; penwidth=0
+
+/* Style for nodes representing atomic programs in workflow */
+node[shape=box style=filled fillcolor="#CCFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing atomic programs in workflow */
+"core/mass-edit0#" [shape=record rankdir=LR label="{<f0> core/mass-edit0# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit1#" [shape=record rankdir=LR label="{<f0> core/mass-edit1# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit2#" [shape=record rankdir=LR label="{<f0> core/mass-edit2# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit3#" [shape=record rankdir=LR label="{<f0> core/mass-edit3# |<f1> Mass edit cells in column variety}"];
+"core/text-transform0#" [shape=record rankdir=LR label="{<f0> core/text-transform0# |<f1> Text transform on cells in column variety using expression value.replace(\"Tokay\",\"Tokaji\")}"];
+"core/text-transform1#" [shape=record rankdir=LR label="{<f0> core/text-transform1# |<f1> Text transform on cells in column variety using expression value.replace(\"Alvarinho\",\"Albariño\")}"];
+"core/mass-edit4#" [shape=record rankdir=LR label="{<f0> core/mass-edit4# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit5#" [shape=record rankdir=LR label="{<f0> core/mass-edit5# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit6#" [shape=record rankdir=LR label="{<f0> core/mass-edit6# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit7#" [shape=record rankdir=LR label="{<f0> core/mass-edit7# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit8#" [shape=record rankdir=LR label="{<f0> core/mass-edit8# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit9#" [shape=record rankdir=LR label="{<f0> core/mass-edit9# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit10#" [shape=record rankdir=LR label="{<f0> core/mass-edit10# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit11#" [shape=record rankdir=LR label="{<f0> core/mass-edit11# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit12#" [shape=record rankdir=LR label="{<f0> core/mass-edit12# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit13#" [shape=record rankdir=LR label="{<f0> core/mass-edit13# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit14#" [shape=record rankdir=LR label="{<f0> core/mass-edit14# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit15#" [shape=record rankdir=LR label="{<f0> core/mass-edit15# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit16#" [shape=record rankdir=LR label="{<f0> core/mass-edit16# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit17#" [shape=record rankdir=LR label="{<f0> core/mass-edit17# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit18#" [shape=record rankdir=LR label="{<f0> core/mass-edit18# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit19#" [shape=record rankdir=LR label="{<f0> core/mass-edit19# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit20#" [shape=record rankdir=LR label="{<f0> core/mass-edit20# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit21#" [shape=record rankdir=LR label="{<f0> core/mass-edit21# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit22#" [shape=record rankdir=LR label="{<f0> core/mass-edit22# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit23#" [shape=record rankdir=LR label="{<f0> core/mass-edit23# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit24#" [shape=record rankdir=LR label="{<f0> core/mass-edit24# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit25#" [shape=record rankdir=LR label="{<f0> core/mass-edit25# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit26#" [shape=record rankdir=LR label="{<f0> core/mass-edit26# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit27#" [shape=record rankdir=LR label="{<f0> core/mass-edit27# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit28#" [shape=record rankdir=LR label="{<f0> core/mass-edit28# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit29#" [shape=record rankdir=LR label="{<f0> core/mass-edit29# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit30#" [shape=record rankdir=LR label="{<f0> core/mass-edit30# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit31#" [shape=record rankdir=LR label="{<f0> core/mass-edit31# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit32#" [shape=record rankdir=LR label="{<f0> core/mass-edit32# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit33#" [shape=record rankdir=LR label="{<f0> core/mass-edit33# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit34#" [shape=record rankdir=LR label="{<f0> core/mass-edit34# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit35#" [shape=record rankdir=LR label="{<f0> core/mass-edit35# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit36#" [shape=record rankdir=LR label="{<f0> core/mass-edit36# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit37#" [shape=record rankdir=LR label="{<f0> core/mass-edit37# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit38#" [shape=record rankdir=LR label="{<f0> core/mass-edit38# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit39#" [shape=record rankdir=LR label="{<f0> core/mass-edit39# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit40#" [shape=record rankdir=LR label="{<f0> core/mass-edit40# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit41#" [shape=record rankdir=LR label="{<f0> core/mass-edit41# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit42#" [shape=record rankdir=LR label="{<f0> core/mass-edit42# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit43#" [shape=record rankdir=LR label="{<f0> core/mass-edit43# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit44#" [shape=record rankdir=LR label="{<f0> core/mass-edit44# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit45#" [shape=record rankdir=LR label="{<f0> core/mass-edit45# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit46#" [shape=record rankdir=LR label="{<f0> core/mass-edit46# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit47#" [shape=record rankdir=LR label="{<f0> core/mass-edit47# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit48#" [shape=record rankdir=LR label="{<f0> core/mass-edit48# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit49#" [shape=record rankdir=LR label="{<f0> core/mass-edit49# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit50#" [shape=record rankdir=LR label="{<f0> core/mass-edit50# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit51#" [shape=record rankdir=LR label="{<f0> core/mass-edit51# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit52#" [shape=record rankdir=LR label="{<f0> core/mass-edit52# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit53#" [shape=record rankdir=LR label="{<f0> core/mass-edit53# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit54#" [shape=record rankdir=LR label="{<f0> core/mass-edit54# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit55#" [shape=record rankdir=LR label="{<f0> core/mass-edit55# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit56#" [shape=record rankdir=LR label="{<f0> core/mass-edit56# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit57#" [shape=record rankdir=LR label="{<f0> core/mass-edit57# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit58#" [shape=record rankdir=LR label="{<f0> core/mass-edit58# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit59#" [shape=record rankdir=LR label="{<f0> core/mass-edit59# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit60#" [shape=record rankdir=LR label="{<f0> core/mass-edit60# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit61#" [shape=record rankdir=LR label="{<f0> core/mass-edit61# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit62#" [shape=record rankdir=LR label="{<f0> core/mass-edit62# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit63#" [shape=record rankdir=LR label="{<f0> core/mass-edit63# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit64#" [shape=record rankdir=LR label="{<f0> core/mass-edit64# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit65#" [shape=record rankdir=LR label="{<f0> core/mass-edit65# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit66#" [shape=record rankdir=LR label="{<f0> core/mass-edit66# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit67#" [shape=record rankdir=LR label="{<f0> core/mass-edit67# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit68#" [shape=record rankdir=LR label="{<f0> core/mass-edit68# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit69#" [shape=record rankdir=LR label="{<f0> core/mass-edit69# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit70#" [shape=record rankdir=LR label="{<f0> core/mass-edit70# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit71#" [shape=record rankdir=LR label="{<f0> core/mass-edit71# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit72#" [shape=record rankdir=LR label="{<f0> core/mass-edit72# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit73#" [shape=record rankdir=LR label="{<f0> core/mass-edit73# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit74#" [shape=record rankdir=LR label="{<f0> core/mass-edit74# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit75#" [shape=record rankdir=LR label="{<f0> core/mass-edit75# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit76#" [shape=record rankdir=LR label="{<f0> core/mass-edit76# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit77#" [shape=record rankdir=LR label="{<f0> core/mass-edit77# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit78#" [shape=record rankdir=LR label="{<f0> core/mass-edit78# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit79#" [shape=record rankdir=LR label="{<f0> core/mass-edit79# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit80#" [shape=record rankdir=LR label="{<f0> core/mass-edit80# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit81#" [shape=record rankdir=LR label="{<f0> core/mass-edit81# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit82#" [shape=record rankdir=LR label="{<f0> core/mass-edit82# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit83#" [shape=record rankdir=LR label="{<f0> core/mass-edit83# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit84#" [shape=record rankdir=LR label="{<f0> core/mass-edit84# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit85#" [shape=record rankdir=LR label="{<f0> core/mass-edit85# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit86#" [shape=record rankdir=LR label="{<f0> core/mass-edit86# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit87#" [shape=record rankdir=LR label="{<f0> core/mass-edit87# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit88#" [shape=record rankdir=LR label="{<f0> core/mass-edit88# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit89#" [shape=record rankdir=LR label="{<f0> core/mass-edit89# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit90#" [shape=record rankdir=LR label="{<f0> core/mass-edit90# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit91#" [shape=record rankdir=LR label="{<f0> core/mass-edit91# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit92#" [shape=record rankdir=LR label="{<f0> core/mass-edit92# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit93#" [shape=record rankdir=LR label="{<f0> core/mass-edit93# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit94#" [shape=record rankdir=LR label="{<f0> core/mass-edit94# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit95#" [shape=record rankdir=LR label="{<f0> core/mass-edit95# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit96#" [shape=record rankdir=LR label="{<f0> core/mass-edit96# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit97#" [shape=record rankdir=LR label="{<f0> core/mass-edit97# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit98#" [shape=record rankdir=LR label="{<f0> core/mass-edit98# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit99#" [shape=record rankdir=LR label="{<f0> core/mass-edit99# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit100#" [shape=record rankdir=LR label="{<f0> core/mass-edit100# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit101#" [shape=record rankdir=LR label="{<f0> core/mass-edit101# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit102#" [shape=record rankdir=LR label="{<f0> core/mass-edit102# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit103#" [shape=record rankdir=LR label="{<f0> core/mass-edit103# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit104#" [shape=record rankdir=LR label="{<f0> core/mass-edit104# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit105#" [shape=record rankdir=LR label="{<f0> core/mass-edit105# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit106#" [shape=record rankdir=LR label="{<f0> core/mass-edit106# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit107#" [shape=record rankdir=LR label="{<f0> core/mass-edit107# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit108#" [shape=record rankdir=LR label="{<f0> core/mass-edit108# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit109#" [shape=record rankdir=LR label="{<f0> core/mass-edit109# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit110#" [shape=record rankdir=LR label="{<f0> core/mass-edit110# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit111#" [shape=record rankdir=LR label="{<f0> core/mass-edit111# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit112#" [shape=record rankdir=LR label="{<f0> core/mass-edit112# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit113#" [shape=record rankdir=LR label="{<f0> core/mass-edit113# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit114#" [shape=record rankdir=LR label="{<f0> core/mass-edit114# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit115#" [shape=record rankdir=LR label="{<f0> core/mass-edit115# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit116#" [shape=record rankdir=LR label="{<f0> core/mass-edit116# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit117#" [shape=record rankdir=LR label="{<f0> core/mass-edit117# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit118#" [shape=record rankdir=LR label="{<f0> core/mass-edit118# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit119#" [shape=record rankdir=LR label="{<f0> core/mass-edit119# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit120#" [shape=record rankdir=LR label="{<f0> core/mass-edit120# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit121#" [shape=record rankdir=LR label="{<f0> core/mass-edit121# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit122#" [shape=record rankdir=LR label="{<f0> core/mass-edit122# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit123#" [shape=record rankdir=LR label="{<f0> core/mass-edit123# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit124#" [shape=record rankdir=LR label="{<f0> core/mass-edit124# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit125#" [shape=record rankdir=LR label="{<f0> core/mass-edit125# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit126#" [shape=record rankdir=LR label="{<f0> core/mass-edit126# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit127#" [shape=record rankdir=LR label="{<f0> core/mass-edit127# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit128#" [shape=record rankdir=LR label="{<f0> core/mass-edit128# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit129#" [shape=record rankdir=LR label="{<f0> core/mass-edit129# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit130#" [shape=record rankdir=LR label="{<f0> core/mass-edit130# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit131#" [shape=record rankdir=LR label="{<f0> core/mass-edit131# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit132#" [shape=record rankdir=LR label="{<f0> core/mass-edit132# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit133#" [shape=record rankdir=LR label="{<f0> core/mass-edit133# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit134#" [shape=record rankdir=LR label="{<f0> core/mass-edit134# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit135#" [shape=record rankdir=LR label="{<f0> core/mass-edit135# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit136#" [shape=record rankdir=LR label="{<f0> core/mass-edit136# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit137#" [shape=record rankdir=LR label="{<f0> core/mass-edit137# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit138#" [shape=record rankdir=LR label="{<f0> core/mass-edit138# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit139#" [shape=record rankdir=LR label="{<f0> core/mass-edit139# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit140#" [shape=record rankdir=LR label="{<f0> core/mass-edit140# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit141#" [shape=record rankdir=LR label="{<f0> core/mass-edit141# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit142#" [shape=record rankdir=LR label="{<f0> core/mass-edit142# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit143#" [shape=record rankdir=LR label="{<f0> core/mass-edit143# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit144#" [shape=record rankdir=LR label="{<f0> core/mass-edit144# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit145#" [shape=record rankdir=LR label="{<f0> core/mass-edit145# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit146#" [shape=record rankdir=LR label="{<f0> core/mass-edit146# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit147#" [shape=record rankdir=LR label="{<f0> core/mass-edit147# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit148#" [shape=record rankdir=LR label="{<f0> core/mass-edit148# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit149#" [shape=record rankdir=LR label="{<f0> core/mass-edit149# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit150#" [shape=record rankdir=LR label="{<f0> core/mass-edit150# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit151#" [shape=record rankdir=LR label="{<f0> core/mass-edit151# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit152#" [shape=record rankdir=LR label="{<f0> core/mass-edit152# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit153#" [shape=record rankdir=LR label="{<f0> core/mass-edit153# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit154#" [shape=record rankdir=LR label="{<f0> core/mass-edit154# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit155#" [shape=record rankdir=LR label="{<f0> core/mass-edit155# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit156#" [shape=record rankdir=LR label="{<f0> core/mass-edit156# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit157#" [shape=record rankdir=LR label="{<f0> core/mass-edit157# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit158#" [shape=record rankdir=LR label="{<f0> core/mass-edit158# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit159#" [shape=record rankdir=LR label="{<f0> core/mass-edit159# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit160#" [shape=record rankdir=LR label="{<f0> core/mass-edit160# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit161#" [shape=record rankdir=LR label="{<f0> core/mass-edit161# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit162#" [shape=record rankdir=LR label="{<f0> core/mass-edit162# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit163#" [shape=record rankdir=LR label="{<f0> core/mass-edit163# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit164#" [shape=record rankdir=LR label="{<f0> core/mass-edit164# |<f1> Mass edit cells in column variety}"];
+"core/mass-edit165#" [shape=record rankdir=LR label="{<f0> core/mass-edit165# |<f1> Mass edit cells in column variety}"];
+
+/* Style for nodes representing non-parameter data channels in workflow */
+node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes for non-parameter data channels in workflow */
+table168
+table0
+table1
+table2
+table3
+table4
+table5
+table6
+table7
+table8
+table9
+table10
+table11
+table12
+table13
+table14
+table15
+table16
+table17
+table18
+table19
+table20
+table21
+table22
+table23
+table24
+table25
+table26
+table27
+table28
+table29
+table30
+table31
+table32
+table33
+table34
+table35
+table36
+table37
+table38
+table39
+table40
+table41
+table42
+table43
+table44
+table45
+table46
+table47
+table48
+table49
+table50
+table51
+table52
+table53
+table54
+table55
+table56
+table57
+table58
+table59
+table60
+table61
+table62
+table63
+table64
+table65
+table66
+table67
+table68
+table69
+table70
+table71
+table72
+table73
+table74
+table75
+table76
+table77
+table78
+table79
+table80
+table81
+table82
+table83
+table84
+table85
+table86
+table87
+table88
+table89
+table90
+table91
+table92
+table93
+table94
+table95
+table96
+table97
+table98
+table99
+table100
+table101
+table102
+table103
+table104
+table105
+table106
+table107
+table108
+table109
+table110
+table111
+table112
+table113
+table114
+table115
+table116
+table117
+table118
+table119
+table120
+table121
+table122
+table123
+table124
+table125
+table126
+table127
+table128
+table129
+table130
+table131
+table132
+table133
+table134
+table135
+table136
+table137
+table138
+table139
+table140
+table141
+table142
+table143
+table144
+table145
+table146
+table147
+table148
+table149
+table150
+table151
+table152
+table153
+table154
+table155
+table156
+table157
+table158
+table159
+table160
+table161
+table162
+table163
+table164
+table165
+table166
+table167
+
+/* Style for nodes representing parameter channels in workflow */
+node[shape=box style="rounded,filled" fillcolor="#FCFCFC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing parameter channels in workflow */
+"col-name:variety"
+"expression:value.replace(\"Tokay\",\"Tokaji\")"
+"expression:value.replace(\"Alvarinho\",\"Albariño\")"
+
+/* Edges representing connections between programs and channels */
+"core/mass-edit0#" -> table1
+"col-name:variety" -> "core/mass-edit0#"
+table0 -> "core/mass-edit0#"
+"core/mass-edit1#" -> table2
+"col-name:variety" -> "core/mass-edit1#"
+table1 -> "core/mass-edit1#"
+"core/mass-edit2#" -> table3
+"col-name:variety" -> "core/mass-edit2#"
+table2 -> "core/mass-edit2#"
+"core/mass-edit3#" -> table4
+"col-name:variety" -> "core/mass-edit3#"
+table3 -> "core/mass-edit3#"
+"core/text-transform0#" -> table5
+"col-name:variety" -> "core/text-transform0#"
+"expression:value.replace(\"Tokay\",\"Tokaji\")" -> "core/text-transform0#"
+table4 -> "core/text-transform0#"
+"core/text-transform1#" -> table6
+"col-name:variety" -> "core/text-transform1#"
+"expression:value.replace(\"Alvarinho\",\"Albariño\")" -> "core/text-transform1#"
+table5 -> "core/text-transform1#"
+"core/mass-edit4#" -> table7
+"col-name:variety" -> "core/mass-edit4#"
+table6 -> "core/mass-edit4#"
+"core/mass-edit5#" -> table8
+"col-name:variety" -> "core/mass-edit5#"
+table7 -> "core/mass-edit5#"
+"core/mass-edit6#" -> table9
+"col-name:variety" -> "core/mass-edit6#"
+table8 -> "core/mass-edit6#"
+"core/mass-edit7#" -> table10
+"col-name:variety" -> "core/mass-edit7#"
+table9 -> "core/mass-edit7#"
+"core/mass-edit8#" -> table11
+"col-name:variety" -> "core/mass-edit8#"
+table10 -> "core/mass-edit8#"
+"core/mass-edit9#" -> table12
+"col-name:variety" -> "core/mass-edit9#"
+table11 -> "core/mass-edit9#"
+"core/mass-edit10#" -> table13
+"col-name:variety" -> "core/mass-edit10#"
+table12 -> "core/mass-edit10#"
+"core/mass-edit11#" -> table14
+"col-name:variety" -> "core/mass-edit11#"
+table13 -> "core/mass-edit11#"
+"core/mass-edit12#" -> table15
+"col-name:variety" -> "core/mass-edit12#"
+table14 -> "core/mass-edit12#"
+"core/mass-edit13#" -> table16
+"col-name:variety" -> "core/mass-edit13#"
+table15 -> "core/mass-edit13#"
+"core/mass-edit14#" -> table17
+"col-name:variety" -> "core/mass-edit14#"
+table16 -> "core/mass-edit14#"
+"core/mass-edit15#" -> table18
+"col-name:variety" -> "core/mass-edit15#"
+table17 -> "core/mass-edit15#"
+"core/mass-edit16#" -> table19
+"col-name:variety" -> "core/mass-edit16#"
+table18 -> "core/mass-edit16#"
+"core/mass-edit17#" -> table20
+"col-name:variety" -> "core/mass-edit17#"
+table19 -> "core/mass-edit17#"
+"core/mass-edit18#" -> table21
+"col-name:variety" -> "core/mass-edit18#"
+table20 -> "core/mass-edit18#"
+"core/mass-edit19#" -> table22
+"col-name:variety" -> "core/mass-edit19#"
+table21 -> "core/mass-edit19#"
+"core/mass-edit20#" -> table23
+"col-name:variety" -> "core/mass-edit20#"
+table22 -> "core/mass-edit20#"
+"core/mass-edit21#" -> table24
+"col-name:variety" -> "core/mass-edit21#"
+table23 -> "core/mass-edit21#"
+"core/mass-edit22#" -> table25
+"col-name:variety" -> "core/mass-edit22#"
+table24 -> "core/mass-edit22#"
+"core/mass-edit23#" -> table26
+"col-name:variety" -> "core/mass-edit23#"
+table25 -> "core/mass-edit23#"
+"core/mass-edit24#" -> table27
+"col-name:variety" -> "core/mass-edit24#"
+table26 -> "core/mass-edit24#"
+"core/mass-edit25#" -> table28
+"col-name:variety" -> "core/mass-edit25#"
+table27 -> "core/mass-edit25#"
+"core/mass-edit26#" -> table29
+"col-name:variety" -> "core/mass-edit26#"
+table28 -> "core/mass-edit26#"
+"core/mass-edit27#" -> table30
+"col-name:variety" -> "core/mass-edit27#"
+table29 -> "core/mass-edit27#"
+"core/mass-edit28#" -> table31
+"col-name:variety" -> "core/mass-edit28#"
+table30 -> "core/mass-edit28#"
+"core/mass-edit29#" -> table32
+"col-name:variety" -> "core/mass-edit29#"
+table31 -> "core/mass-edit29#"
+"core/mass-edit30#" -> table33
+"col-name:variety" -> "core/mass-edit30#"
+table32 -> "core/mass-edit30#"
+"core/mass-edit31#" -> table34
+"col-name:variety" -> "core/mass-edit31#"
+table33 -> "core/mass-edit31#"
+"core/mass-edit32#" -> table35
+"col-name:variety" -> "core/mass-edit32#"
+table34 -> "core/mass-edit32#"
+"core/mass-edit33#" -> table36
+"col-name:variety" -> "core/mass-edit33#"
+table35 -> "core/mass-edit33#"
+"core/mass-edit34#" -> table37
+"col-name:variety" -> "core/mass-edit34#"
+table36 -> "core/mass-edit34#"
+"core/mass-edit35#" -> table38
+"col-name:variety" -> "core/mass-edit35#"
+table37 -> "core/mass-edit35#"
+"core/mass-edit36#" -> table39
+"col-name:variety" -> "core/mass-edit36#"
+table38 -> "core/mass-edit36#"
+"core/mass-edit37#" -> table40
+"col-name:variety" -> "core/mass-edit37#"
+table39 -> "core/mass-edit37#"
+"core/mass-edit38#" -> table41
+"col-name:variety" -> "core/mass-edit38#"
+table40 -> "core/mass-edit38#"
+"core/mass-edit39#" -> table42
+"col-name:variety" -> "core/mass-edit39#"
+table41 -> "core/mass-edit39#"
+"core/mass-edit40#" -> table43
+"col-name:variety" -> "core/mass-edit40#"
+table42 -> "core/mass-edit40#"
+"core/mass-edit41#" -> table44
+"col-name:variety" -> "core/mass-edit41#"
+table43 -> "core/mass-edit41#"
+"core/mass-edit42#" -> table45
+"col-name:variety" -> "core/mass-edit42#"
+table44 -> "core/mass-edit42#"
+"core/mass-edit43#" -> table46
+"col-name:variety" -> "core/mass-edit43#"
+table45 -> "core/mass-edit43#"
+"core/mass-edit44#" -> table47
+"col-name:variety" -> "core/mass-edit44#"
+table46 -> "core/mass-edit44#"
+"core/mass-edit45#" -> table48
+"col-name:variety" -> "core/mass-edit45#"
+table47 -> "core/mass-edit45#"
+"core/mass-edit46#" -> table49
+"col-name:variety" -> "core/mass-edit46#"
+table48 -> "core/mass-edit46#"
+"core/mass-edit47#" -> table50
+"col-name:variety" -> "core/mass-edit47#"
+table49 -> "core/mass-edit47#"
+"core/mass-edit48#" -> table51
+"col-name:variety" -> "core/mass-edit48#"
+table50 -> "core/mass-edit48#"
+"core/mass-edit49#" -> table52
+"col-name:variety" -> "core/mass-edit49#"
+table51 -> "core/mass-edit49#"
+"core/mass-edit50#" -> table53
+"col-name:variety" -> "core/mass-edit50#"
+table52 -> "core/mass-edit50#"
+"core/mass-edit51#" -> table54
+"col-name:variety" -> "core/mass-edit51#"
+table53 -> "core/mass-edit51#"
+"core/mass-edit52#" -> table55
+"col-name:variety" -> "core/mass-edit52#"
+table54 -> "core/mass-edit52#"
+"core/mass-edit53#" -> table56
+"col-name:variety" -> "core/mass-edit53#"
+table55 -> "core/mass-edit53#"
+"core/mass-edit54#" -> table57
+"col-name:variety" -> "core/mass-edit54#"
+table56 -> "core/mass-edit54#"
+"core/mass-edit55#" -> table58
+"col-name:variety" -> "core/mass-edit55#"
+table57 -> "core/mass-edit55#"
+"core/mass-edit56#" -> table59
+"col-name:variety" -> "core/mass-edit56#"
+table58 -> "core/mass-edit56#"
+"core/mass-edit57#" -> table60
+"col-name:variety" -> "core/mass-edit57#"
+table59 -> "core/mass-edit57#"
+"core/mass-edit58#" -> table61
+"col-name:variety" -> "core/mass-edit58#"
+table60 -> "core/mass-edit58#"
+"core/mass-edit59#" -> table62
+"col-name:variety" -> "core/mass-edit59#"
+table61 -> "core/mass-edit59#"
+"core/mass-edit60#" -> table63
+"col-name:variety" -> "core/mass-edit60#"
+table62 -> "core/mass-edit60#"
+"core/mass-edit61#" -> table64
+"col-name:variety" -> "core/mass-edit61#"
+table63 -> "core/mass-edit61#"
+"core/mass-edit62#" -> table65
+"col-name:variety" -> "core/mass-edit62#"
+table64 -> "core/mass-edit62#"
+"core/mass-edit63#" -> table66
+"col-name:variety" -> "core/mass-edit63#"
+table65 -> "core/mass-edit63#"
+"core/mass-edit64#" -> table67
+"col-name:variety" -> "core/mass-edit64#"
+table66 -> "core/mass-edit64#"
+"core/mass-edit65#" -> table68
+"col-name:variety" -> "core/mass-edit65#"
+table67 -> "core/mass-edit65#"
+"core/mass-edit66#" -> table69
+"col-name:variety" -> "core/mass-edit66#"
+table68 -> "core/mass-edit66#"
+"core/mass-edit67#" -> table70
+"col-name:variety" -> "core/mass-edit67#"
+table69 -> "core/mass-edit67#"
+"core/mass-edit68#" -> table71
+"col-name:variety" -> "core/mass-edit68#"
+table70 -> "core/mass-edit68#"
+"core/mass-edit69#" -> table72
+"col-name:variety" -> "core/mass-edit69#"
+table71 -> "core/mass-edit69#"
+"core/mass-edit70#" -> table73
+"col-name:variety" -> "core/mass-edit70#"
+table72 -> "core/mass-edit70#"
+"core/mass-edit71#" -> table74
+"col-name:variety" -> "core/mass-edit71#"
+table73 -> "core/mass-edit71#"
+"core/mass-edit72#" -> table75
+"col-name:variety" -> "core/mass-edit72#"
+table74 -> "core/mass-edit72#"
+"core/mass-edit73#" -> table76
+"col-name:variety" -> "core/mass-edit73#"
+table75 -> "core/mass-edit73#"
+"core/mass-edit74#" -> table77
+"col-name:variety" -> "core/mass-edit74#"
+table76 -> "core/mass-edit74#"
+"core/mass-edit75#" -> table78
+"col-name:variety" -> "core/mass-edit75#"
+table77 -> "core/mass-edit75#"
+"core/mass-edit76#" -> table79
+"col-name:variety" -> "core/mass-edit76#"
+table78 -> "core/mass-edit76#"
+"core/mass-edit77#" -> table80
+"col-name:variety" -> "core/mass-edit77#"
+table79 -> "core/mass-edit77#"
+"core/mass-edit78#" -> table81
+"col-name:variety" -> "core/mass-edit78#"
+table80 -> "core/mass-edit78#"
+"core/mass-edit79#" -> table82
+"col-name:variety" -> "core/mass-edit79#"
+table81 -> "core/mass-edit79#"
+"core/mass-edit80#" -> table83
+"col-name:variety" -> "core/mass-edit80#"
+table82 -> "core/mass-edit80#"
+"core/mass-edit81#" -> table84
+"col-name:variety" -> "core/mass-edit81#"
+table83 -> "core/mass-edit81#"
+"core/mass-edit82#" -> table85
+"col-name:variety" -> "core/mass-edit82#"
+table84 -> "core/mass-edit82#"
+"core/mass-edit83#" -> table86
+"col-name:variety" -> "core/mass-edit83#"
+table85 -> "core/mass-edit83#"
+"core/mass-edit84#" -> table87
+"col-name:variety" -> "core/mass-edit84#"
+table86 -> "core/mass-edit84#"
+"core/mass-edit85#" -> table88
+"col-name:variety" -> "core/mass-edit85#"
+table87 -> "core/mass-edit85#"
+"core/mass-edit86#" -> table89
+"col-name:variety" -> "core/mass-edit86#"
+table88 -> "core/mass-edit86#"
+"core/mass-edit87#" -> table90
+"col-name:variety" -> "core/mass-edit87#"
+table89 -> "core/mass-edit87#"
+"core/mass-edit88#" -> table91
+"col-name:variety" -> "core/mass-edit88#"
+table90 -> "core/mass-edit88#"
+"core/mass-edit89#" -> table92
+"col-name:variety" -> "core/mass-edit89#"
+table91 -> "core/mass-edit89#"
+"core/mass-edit90#" -> table93
+"col-name:variety" -> "core/mass-edit90#"
+table92 -> "core/mass-edit90#"
+"core/mass-edit91#" -> table94
+"col-name:variety" -> "core/mass-edit91#"
+table93 -> "core/mass-edit91#"
+"core/mass-edit92#" -> table95
+"col-name:variety" -> "core/mass-edit92#"
+table94 -> "core/mass-edit92#"
+"core/mass-edit93#" -> table96
+"col-name:variety" -> "core/mass-edit93#"
+table95 -> "core/mass-edit93#"
+"core/mass-edit94#" -> table97
+"col-name:variety" -> "core/mass-edit94#"
+table96 -> "core/mass-edit94#"
+"core/mass-edit95#" -> table98
+"col-name:variety" -> "core/mass-edit95#"
+table97 -> "core/mass-edit95#"
+"core/mass-edit96#" -> table99
+"col-name:variety" -> "core/mass-edit96#"
+table98 -> "core/mass-edit96#"
+"core/mass-edit97#" -> table100
+"col-name:variety" -> "core/mass-edit97#"
+table99 -> "core/mass-edit97#"
+"core/mass-edit98#" -> table101
+"col-name:variety" -> "core/mass-edit98#"
+table100 -> "core/mass-edit98#"
+"core/mass-edit99#" -> table102
+"col-name:variety" -> "core/mass-edit99#"
+table101 -> "core/mass-edit99#"
+"core/mass-edit100#" -> table103
+"col-name:variety" -> "core/mass-edit100#"
+table102 -> "core/mass-edit100#"
+"core/mass-edit101#" -> table104
+"col-name:variety" -> "core/mass-edit101#"
+table103 -> "core/mass-edit101#"
+"core/mass-edit102#" -> table105
+"col-name:variety" -> "core/mass-edit102#"
+table104 -> "core/mass-edit102#"
+"core/mass-edit103#" -> table106
+"col-name:variety" -> "core/mass-edit103#"
+table105 -> "core/mass-edit103#"
+"core/mass-edit104#" -> table107
+"col-name:variety" -> "core/mass-edit104#"
+table106 -> "core/mass-edit104#"
+"core/mass-edit105#" -> table108
+"col-name:variety" -> "core/mass-edit105#"
+table107 -> "core/mass-edit105#"
+"core/mass-edit106#" -> table109
+"col-name:variety" -> "core/mass-edit106#"
+table108 -> "core/mass-edit106#"
+"core/mass-edit107#" -> table110
+"col-name:variety" -> "core/mass-edit107#"
+table109 -> "core/mass-edit107#"
+"core/mass-edit108#" -> table111
+"col-name:variety" -> "core/mass-edit108#"
+table110 -> "core/mass-edit108#"
+"core/mass-edit109#" -> table112
+"col-name:variety" -> "core/mass-edit109#"
+table111 -> "core/mass-edit109#"
+"core/mass-edit110#" -> table113
+"col-name:variety" -> "core/mass-edit110#"
+table112 -> "core/mass-edit110#"
+"core/mass-edit111#" -> table114
+"col-name:variety" -> "core/mass-edit111#"
+table113 -> "core/mass-edit111#"
+"core/mass-edit112#" -> table115
+"col-name:variety" -> "core/mass-edit112#"
+table114 -> "core/mass-edit112#"
+"core/mass-edit113#" -> table116
+"col-name:variety" -> "core/mass-edit113#"
+table115 -> "core/mass-edit113#"
+"core/mass-edit114#" -> table117
+"col-name:variety" -> "core/mass-edit114#"
+table116 -> "core/mass-edit114#"
+"core/mass-edit115#" -> table118
+"col-name:variety" -> "core/mass-edit115#"
+table117 -> "core/mass-edit115#"
+"core/mass-edit116#" -> table119
+"col-name:variety" -> "core/mass-edit116#"
+table118 -> "core/mass-edit116#"
+"core/mass-edit117#" -> table120
+"col-name:variety" -> "core/mass-edit117#"
+table119 -> "core/mass-edit117#"
+"core/mass-edit118#" -> table121
+"col-name:variety" -> "core/mass-edit118#"
+table120 -> "core/mass-edit118#"
+"core/mass-edit119#" -> table122
+"col-name:variety" -> "core/mass-edit119#"
+table121 -> "core/mass-edit119#"
+"core/mass-edit120#" -> table123
+"col-name:variety" -> "core/mass-edit120#"
+table122 -> "core/mass-edit120#"
+"core/mass-edit121#" -> table124
+"col-name:variety" -> "core/mass-edit121#"
+table123 -> "core/mass-edit121#"
+"core/mass-edit122#" -> table125
+"col-name:variety" -> "core/mass-edit122#"
+table124 -> "core/mass-edit122#"
+"core/mass-edit123#" -> table126
+"col-name:variety" -> "core/mass-edit123#"
+table125 -> "core/mass-edit123#"
+"core/mass-edit124#" -> table127
+"col-name:variety" -> "core/mass-edit124#"
+table126 -> "core/mass-edit124#"
+"core/mass-edit125#" -> table128
+"col-name:variety" -> "core/mass-edit125#"
+table127 -> "core/mass-edit125#"
+"core/mass-edit126#" -> table129
+"col-name:variety" -> "core/mass-edit126#"
+table128 -> "core/mass-edit126#"
+"core/mass-edit127#" -> table130
+"col-name:variety" -> "core/mass-edit127#"
+table129 -> "core/mass-edit127#"
+"core/mass-edit128#" -> table131
+"col-name:variety" -> "core/mass-edit128#"
+table130 -> "core/mass-edit128#"
+"core/mass-edit129#" -> table132
+"col-name:variety" -> "core/mass-edit129#"
+table131 -> "core/mass-edit129#"
+"core/mass-edit130#" -> table133
+"col-name:variety" -> "core/mass-edit130#"
+table132 -> "core/mass-edit130#"
+"core/mass-edit131#" -> table134
+"col-name:variety" -> "core/mass-edit131#"
+table133 -> "core/mass-edit131#"
+"core/mass-edit132#" -> table135
+"col-name:variety" -> "core/mass-edit132#"
+table134 -> "core/mass-edit132#"
+"core/mass-edit133#" -> table136
+"col-name:variety" -> "core/mass-edit133#"
+table135 -> "core/mass-edit133#"
+"core/mass-edit134#" -> table137
+"col-name:variety" -> "core/mass-edit134#"
+table136 -> "core/mass-edit134#"
+"core/mass-edit135#" -> table138
+"col-name:variety" -> "core/mass-edit135#"
+table137 -> "core/mass-edit135#"
+"core/mass-edit136#" -> table139
+"col-name:variety" -> "core/mass-edit136#"
+table138 -> "core/mass-edit136#"
+"core/mass-edit137#" -> table140
+"col-name:variety" -> "core/mass-edit137#"
+table139 -> "core/mass-edit137#"
+"core/mass-edit138#" -> table141
+"col-name:variety" -> "core/mass-edit138#"
+table140 -> "core/mass-edit138#"
+"core/mass-edit139#" -> table142
+"col-name:variety" -> "core/mass-edit139#"
+table141 -> "core/mass-edit139#"
+"core/mass-edit140#" -> table143
+"col-name:variety" -> "core/mass-edit140#"
+table142 -> "core/mass-edit140#"
+"core/mass-edit141#" -> table144
+"col-name:variety" -> "core/mass-edit141#"
+table143 -> "core/mass-edit141#"
+"core/mass-edit142#" -> table145
+"col-name:variety" -> "core/mass-edit142#"
+table144 -> "core/mass-edit142#"
+"core/mass-edit143#" -> table146
+"col-name:variety" -> "core/mass-edit143#"
+table145 -> "core/mass-edit143#"
+"core/mass-edit144#" -> table147
+"col-name:variety" -> "core/mass-edit144#"
+table146 -> "core/mass-edit144#"
+"core/mass-edit145#" -> table148
+"col-name:variety" -> "core/mass-edit145#"
+table147 -> "core/mass-edit145#"
+"core/mass-edit146#" -> table149
+"col-name:variety" -> "core/mass-edit146#"
+table148 -> "core/mass-edit146#"
+"core/mass-edit147#" -> table150
+"col-name:variety" -> "core/mass-edit147#"
+table149 -> "core/mass-edit147#"
+"core/mass-edit148#" -> table151
+"col-name:variety" -> "core/mass-edit148#"
+table150 -> "core/mass-edit148#"
+"core/mass-edit149#" -> table152
+"col-name:variety" -> "core/mass-edit149#"
+table151 -> "core/mass-edit149#"
+"core/mass-edit150#" -> table153
+"col-name:variety" -> "core/mass-edit150#"
+table152 -> "core/mass-edit150#"
+"core/mass-edit151#" -> table154
+"col-name:variety" -> "core/mass-edit151#"
+table153 -> "core/mass-edit151#"
+"core/mass-edit152#" -> table155
+"col-name:variety" -> "core/mass-edit152#"
+table154 -> "core/mass-edit152#"
+"core/mass-edit153#" -> table156
+"col-name:variety" -> "core/mass-edit153#"
+table155 -> "core/mass-edit153#"
+"core/mass-edit154#" -> table157
+"col-name:variety" -> "core/mass-edit154#"
+table156 -> "core/mass-edit154#"
+"core/mass-edit155#" -> table158
+"col-name:variety" -> "core/mass-edit155#"
+table157 -> "core/mass-edit155#"
+"core/mass-edit156#" -> table159
+"col-name:variety" -> "core/mass-edit156#"
+table158 -> "core/mass-edit156#"
+"core/mass-edit157#" -> table160
+"col-name:variety" -> "core/mass-edit157#"
+table159 -> "core/mass-edit157#"
+"core/mass-edit158#" -> table161
+"col-name:variety" -> "core/mass-edit158#"
+table160 -> "core/mass-edit158#"
+"core/mass-edit159#" -> table162
+"col-name:variety" -> "core/mass-edit159#"
+table161 -> "core/mass-edit159#"
+"core/mass-edit160#" -> table163
+"col-name:variety" -> "core/mass-edit160#"
+table162 -> "core/mass-edit160#"
+"core/mass-edit161#" -> table164
+"col-name:variety" -> "core/mass-edit161#"
+table163 -> "core/mass-edit161#"
+"core/mass-edit162#" -> table165
+"col-name:variety" -> "core/mass-edit162#"
+table164 -> "core/mass-edit162#"
+"core/mass-edit163#" -> table166
+"col-name:variety" -> "core/mass-edit163#"
+table165 -> "core/mass-edit163#"
+"core/mass-edit164#" -> table167
+"col-name:variety" -> "core/mass-edit164#"
+table166 -> "core/mass-edit164#"
+"core/mass-edit165#" -> table168
+"col-name:variety" -> "core/mass-edit165#"
+table167 -> "core/mass-edit165#"
+
+/* End of double cluster for drawing box around nodes in workflow */
+}}
+
+/* End of top-level graph */
+}
