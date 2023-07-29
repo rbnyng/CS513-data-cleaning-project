@@ -1,0 +1,30 @@
+-- Check for WineReviews entries with non-existing reviewers
+SELECT id, reviewer_id
+FROM WineReviews
+WHERE reviewer_id IS NOT NULL AND reviewer_id NOT IN (SELECT reviewer_id FROM Reviewers);
+-- Check for WineReviews entries with non-existing wineries
+SELECT id, winery_id
+FROM WineReviews
+WHERE winery_id IS NOT NULL AND winery_id NOT IN (SELECT winery_id FROM Wineries);
+-- Check for duplicate ids in WineReviews
+SELECT id, COUNT(*)
+FROM WineReviews
+GROUP BY id
+HAVING COUNT(*) > 1;
+-- Check for duplicate winery_ids in Wineries
+SELECT winery_id, COUNT(*)
+FROM Wineries
+GROUP BY winery_id
+HAVING COUNT(*) > 1;
+-- Check for duplicate reviewer_ids in Reviewers
+SELECT reviewer_id, COUNT(*)
+FROM Reviewers
+GROUP BY reviewer_id
+HAVING COUNT(*) > 1;
+-- Check for invalid points values in WineReviews
+SELECT id, points
+FROM WineReviews
+WHERE points < 0 OR points > 100;
+-- Filtering for rows with missing values in 'country', 'province', and 'variety'
+SELECT FROM WineReviews
+WHERE country IS NULL OR province IS NULL OR variety IS NULL;
